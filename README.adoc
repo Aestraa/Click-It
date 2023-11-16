@@ -45,13 +45,12 @@ HasButtonsUnlocked: Vérifie si un joueur a débloqué un bouton de réincarnati
 
 ifdef::env-github[]
 ++++
-<figure align="center">
-  <img width="70%" src="images/test.png">
-  <figcaption>Ceci est la légende de l'image qui se rapporte au tableau ci-dessus</figcaption>
-</figure>
+<p align="center">
+  <img width=70% src="images/test.png">
+  <p>Ceci est la légende de l'image qui se rapporte au tableau ci-dessus</p>
+</p>
 ++++
 endif::[]
-
 
 ifndef::env-github[]
 .Ceci est la légende de l'image qui se rapporte au tableau ci-dessus
