@@ -47,12 +47,12 @@ ifdef::env-github[]
 ++++
 <p align="center">
   <img width=70% src="images/test.png">
-  <p>Ceci est la légende de l'image qui se rapporte au tableau ci-dessus</p>
+  <p>Image fonction Rebirth.Rebirth</p>
 </p>
 ++++
 endif::[]
 
 ifndef::env-github[]
-.Ceci est la légende de l'image qui se rapporte au tableau ci-dessus
+.Image fonction Rebirth.Rebirth
 image::images/test.png[Code Rebirth, align=center]
 endif::[]
