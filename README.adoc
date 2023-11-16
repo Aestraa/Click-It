@@ -55,5 +55,5 @@ ifdef::env-github[]
 endif::[]
 
 ifndef::env-github[]
-image::images/test.png[A map, 350, align=center]
+image::images/test.png[A map, align=center]
 endif::[]
