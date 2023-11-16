@@ -78,3 +78,109 @@ ifndef::env-github[]
 .Image méthode Rebirth.Rebirth
 image::images/test.png[Code Rebirth, align=center]
 endif::[]
+
+=== Ajouter un portail
+
+Tout d'abord, copiez un modèle de Portail se trouvant dans Workspace>Portals :
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width=70% src="images/PortailTuto1.png">
+  <p align="center">Config des dossiers</p>
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+.Config des dossiers
+image::images/PortailTuto1.png[Code Rebirth, align=center]
+endif::[]
+
+Puis le copier dans ce même dossier, et le renommer avec le nom du portail (ex: Aqua).
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width=70% src="images/PortailTuto2.png">
+  <p align="center">Ajout Portail</p>
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+.Ajout Portail
+image::images/PortailTuto2.png[Code Rebirth, align=center]
+endif::[]
+
+Pensez aussi à changer la couleur du `Portal`.
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width=70% src="images/PortailTuto3.png">
+  <p align="center">Changement couleur du portail</p>
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+.Changement couleur du portail
+image::images/PortailTuto3.png[Code Rebirth, align=center]
+endif::[]
+
+Et à déplacer le nouveau portail dans la map de départ (ou bien dans une autre map).
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width=70% src="images/PortailTuto4.png">
+  <p align="center">Placement du portail</p>
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+.Placement du portail
+image::images/PortailTuto4.png[Code Rebirth, align=center]
+endif::[]
+
+Puis ajouter la nouvelle map dans le dossier `Workspace>Islands`, à noter qu'il faut que la nouvelle map contienne :
+
+* Un portail "retour" intitulé `PortailContainer` (pour revenir au point de départ).
+* Une Part intitulée `IslandHitbox` (servant à afficher le popup quand le joueur débloque l'île).
+* Une Part intitulée `IslandSpawn` (qui sera l'endroit exact où le joueur sera téléporter lorsqu'il prendra le portail).
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width=70% src="images/PortailTuto5.png">
+  <p align="center">Config Islands</p>
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+.Config Islands
+image::images/PortailTuto5.png[Code Rebirth, align=center]
+endif::[]
+
+Enfin il faut ajouter la nouvelle map dans le dossier `ReplicatedStorage>Configs>Islands` en y précisant :
+
+* Le nom de la map (ex: Aqua).
+* Le prix de l'île. (ex: 500_000)
+* L'île nécéssaire pour débloquer l'île. (ex: Desert)
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width=70% src="images/PortailTuto6.png">
+  <p align="center">Code Config Islands</p>
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+.Code Config Islands
+image::images/PortailTuto6.png[Code Rebirth, align=center]
+endif::[]
