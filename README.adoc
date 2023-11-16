@@ -45,3 +45,15 @@ HasButtonsUnlocked: Vérifie si un joueur a débloqué un bouton de réincarnati
 
 .Ceci est la légende de l'image qui se rapporte au tableau ci-dessus
 image::images/test.png["Description de l'image",align="center",width="70%"]
+
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width="460" height="300" src="images/test.png">
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+image::images/test.png[A map, 350, align=center]
+endif::[]
