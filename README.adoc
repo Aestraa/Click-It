@@ -25,9 +25,9 @@ toc::[]
 
 == Réalisations
 
-TIP: Vous trouverez ici toutes les informations nécessaires pour utiliser notre application ou site web, y compris comment y accéder, où trouver les documents, etc.
+TIP: Vous trouverez ici toutes les notes du projet Click-It.
 
-WARNING: Le contenu de ce dépôt et de ce ReadMe changeront tout au long de la durée du projet 
+WARNING: Ce projet est en cours de développement, il est donc possible que certaines informations soient manquantes ou erronées.
 
 == Notes Roblox
 
