@@ -43,17 +43,15 @@ HasButtonsUnlocked: Vérifie si un joueur a débloqué un bouton de réincarnati
 | `ServerScriptService>Rebirth` | Dans la fonction Rebirth.Rebirth(player: Player, amount: number?) | PlayerData.AdjustClicks(player -price): Soustrait le prix de la "rebirth" au nombre de Clicks du joueur. Modifier avec PlayerData.AdjustClicks(player -profile.Data.Clicks) pour reset les Clicks du joueur quand il rebirth.
 |===
 
-.Ceci est la légende de l'image qui se rapporte au tableau ci-dessus
-image::images/test.png["Description de l'image",align="center",width="70%"]
-
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img width="460" height="300" src="images/test.png">
+  <img src="images/test.png">
 </p>
 ++++
 endif::[]
 
 ifndef::env-github[]
-image::images/test.png[A map, align=center]
+.Ceci est la légende de l'image qui se rapporte au tableau ci-dessus
+image::images/test.png[Code Rebirth, align=center]
 endif::[]
