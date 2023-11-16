@@ -1,4 +1,4 @@
-= S5.A.01 - Développement avancé
+= Click-It Project Notes (FR)
 :icons: font
 :models: models
 :experimental:
