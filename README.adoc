@@ -47,7 +47,7 @@ ifdef::env-github[]
 ++++
 <p align="center">
   <img width=70% src="images/test.png">
-  <p>Image fonction Rebirth.Rebirth</p>
+  <p align="center">Image fonction Rebirth.Rebirth</p>
 </p>
 ++++
 endif::[]
