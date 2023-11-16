@@ -29,7 +29,9 @@ TIP: Vous trouverez ici toutes les informations nécessaires pour utiliser notre
 
 WARNING: Le contenu de ce dépôt et de ce ReadMe changeront tout au long de la durée du projet 
 
-== Documentation utilisateur 
+== Notes Roblox
+
+=== Configuration des prix des Rebirths
 
 [cols="2,3,5",options=header]
 |===
@@ -54,6 +56,8 @@ ifndef::env-github[]
 .Image méthode RebirthsConfig.CalculatePrice
 image::images/test2.png[Code Rebirth, align=center]
 endif::[]
+
+=== Ajuster le nombre de Clicks du joueur après une Rebirth
 
 [cols="2,3,5",options=header]
 |===
