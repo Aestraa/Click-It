@@ -39,7 +39,25 @@ BasePrice: Prix de base pour une réincarnation. +
 ExponentialFactor: Facteur pour augmenter le prix de manière exponentielle. +
 CalculatePrice: Calcule le prix total pour un nombre spécifié de réincarnations. +
 HasButtonsUnlocked: Vérifie si un joueur a débloqué un bouton de réincarnation spécifique.
+|===
 
+ifdef::env-github[]
+++++
+<p align="center">
+  <img width=70% src="images/test2.png">
+  <p align="center">Image méthode RebirthsConfig.CalculatePrice</p>
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+.Image méthode RebirthsConfig.CalculatePrice
+image::images/test2.png[Code Rebirth, align=center]
+endif::[]
+
+[cols="2,3,5",options=header]
+|===
+| Endroit | Code  | Notes
 | `ServerScriptService>Rebirth` | Dans la fonction Rebirth.Rebirth(player: Player, amount: number?) | PlayerData.AdjustClicks(player -price): Soustrait le prix de la "rebirth" au nombre de Clicks du joueur. Modifier avec PlayerData.AdjustClicks(player -profile.Data.Clicks) pour reset les Clicks du joueur quand il rebirth.
 |===
 
@@ -47,12 +65,12 @@ ifdef::env-github[]
 ++++
 <p align="center">
   <img width=70% src="images/test.png">
-  <p align="center">Image fonction Rebirth.Rebirth</p>
+  <p align="center">Image méthode Rebirth.Rebirth</p>
 </p>
 ++++
 endif::[]
 
 ifndef::env-github[]
-.Image fonction Rebirth.Rebirth
+.Image méthode Rebirth.Rebirth
 image::images/test.png[Code Rebirth, align=center]
 endif::[]
